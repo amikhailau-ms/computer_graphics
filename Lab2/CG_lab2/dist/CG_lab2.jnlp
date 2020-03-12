@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CG_lab2.jnlp">
+  <information>
+    <title>CG_lab2</title>
+    <vendor>lenovo</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CG_lab2.jar" size="745610" download="eager" />
+    <jar href="lib\xmpcore-6.0.6.jar" size="131936" download="eager" />
+  </resources>
+  <application-desc main-class="Main"  name="CG_lab2" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
